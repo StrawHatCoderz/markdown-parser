@@ -59,7 +59,6 @@ console.log(result);
 // Output: { type: 'header', data: { level: 1, content: 'Hello World' } }
 ```
 
-
 ## 🏗 Architecture
 
 The parser operates as a two-stage pipeline to transform raw text into a
@@ -125,7 +124,7 @@ const tokens = [
   { "type": "TEXT", "raw": "cool parser." },
 ];
 
-const ast = parser(tokens)
+const ast = parser(tokens);
 
 // output:
 // [
